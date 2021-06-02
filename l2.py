@@ -10,7 +10,7 @@ for i in range (0, len(string)):
     elif string[i] == "c" or string[i] == "с" \
             or string[i] == "C" or string[i] == "С":
         n += 1
-    outstring += string[i]
+    outstring = outstring + string[i]
 
 if n >= 1:
     print("Присутствует символ 'c'!")
